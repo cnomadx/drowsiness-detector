@@ -1,0 +1,11 @@
+# Driver Drowsiness Detection - CSC 126 Midterm Project
+# Install with: pip install -r requirements.txt
+
+# OpenCV 4.x is required: in OpenCV 5 the Haar cascade classifier was moved
+# out of the main module and the program stops with "Could not load Haar cascade".
+# The contrib package already includes everything in opencv-python
+# (do not install both, they conflict).
+opencv-contrib-python<5
+
+# Facial landmark detection (Face Landmarker, tasks API)
+mediapipe>=0.10
